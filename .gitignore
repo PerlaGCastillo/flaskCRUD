@@ -1,0 +1,61 @@
+#Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+instance/
+.pytest_cache/
+*.venv
+
+# Compiled output
+/dist
+/build
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+#ts
+.angular/
+tsconfig.json
+tsconfig.app.json
+tsconfig.spec.json
+coverage/
+*.spec.ts
+*.test.ts
+
+
+# IDEs and editors
+.idea/
+*.iml
+*.launch
+.settings/
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+*.log
+*.out
+*.pid
+*.db
+*.sqlite3
+*.sqlite
+
+# System files
+.DS_Store
+Thumbs.db
